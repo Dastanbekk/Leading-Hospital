@@ -1,0 +1,70 @@
+.header{
+    background-image:  url(../img/background.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+}
+.hero{
+    height:calc(100% - 72px);
+    &__left{
+        h3{
+            width: 75%;
+            color: #FFF;
+            font-size: 58px;
+            font-weight: 800;
+            line-height: 80px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+        p{
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            width: 75%;
+            margin-top: 32px;
+        }
+        &-btns{
+            margin-top: 30px;
+        }
+    }
+}
+
+.leading{
+    padding: 100px 0;
+}
+
+.medicine{
+    padding: 100px 0;
+    background-color: #FAFAFA;
+}
+
+.faq{
+    padding: 100px 0;
+}
+
+.faq-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+.faq-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.faq-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+.faq-description {
+    color: #6c757d;
+}

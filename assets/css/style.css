@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans&family=Poppins&display=swap");
+.header {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 20px;
+}
+
+.hero {
+  height: calc(100% - 72px);
+}
+.hero__left h3 {
+  width: 75%;
+  color: #FFF;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.hero__left p {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 75%;
+  margin-top: 32px;
+}
+.hero__left-btns {
+  margin-top: 30px;
+}
+
+.leading {
+  padding: 100px 0;
+}
+
+.medicine {
+  padding: 100px 0;
+  background-color: #FAFAFA;
+}
+
+.faq {
+  padding: 100px 0;
+}
+
+.faq-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.faq-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faq-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.faq-description {
+  color: #6c757d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
