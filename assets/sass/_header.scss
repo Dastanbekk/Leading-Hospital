@@ -68,3 +68,31 @@
 .faq-description {
     color: #6c757d;
 }
+
+.pricing-card{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.touch{
+    background-color: #252B42;
+    padding: 80px 0;
+}
+
+footer{
+    background-color: #FFF;
+    padding: 80px 0;
+}
+.footer__bottom{
+    background-color: #eae8e8;
+}
+
+@media (max-width:1200px) {
+    .get-in-touch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
